@@ -1,0 +1,42 @@
+:host {
+  display: block;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+li:hover {
+  background-color: #eef;
+}
+
+a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
